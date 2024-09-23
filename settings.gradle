@@ -1,5 +1,1 @@
-sourceControl {
-    gitRepository("https://github.com/MorsiBouhlel/gradle-bintray-plugin.git") {
-        producesModule("com.jfrog.bintray.gradle:gradle-bintray-plugin")
-    }
-}
+
