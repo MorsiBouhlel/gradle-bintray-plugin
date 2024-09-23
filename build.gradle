@@ -5,11 +5,12 @@ buildscript {
     repositories {
         mavenLocal()
         jcenter()
-        maven {         
-        url = uri("https://repository.axelor.com/nexus/repository/maven-public")
-        }
         maven {
           url = uri("https://plugins.gradle.org/m2/")
+        }
+        maven { url "https://repo.grails.org/grails/core/" }
+        maven {         
+            url = uri("https://repository.axelor.com/nexus/repository/maven-public")
         }
     }
     dependencies {
@@ -30,6 +31,9 @@ repositories {
     maven {
       url = uri("https://plugins.gradle.org/m2/")
     }
+    maven {         
+        url = uri("https://repository.axelor.com/nexus/repository/maven-public")
+        }
 }
 
 dependencies {
