@@ -8,7 +8,6 @@ buildscript {
         maven {
           url = uri("https://plugins.gradle.org/m2/")
         }
-        maven { url "https://repo.grails.org/grails/core/" }
         maven {         
             url = uri("https://repository.axelor.com/nexus/repository/maven-public")
         }
@@ -27,7 +26,6 @@ apply plugin: 'com.jfrog.bintray'
 
 repositories {
     jcenter()
-    maven { url "https://repo.grails.org/grails/core/" }
     maven {
       url = uri("https://plugins.gradle.org/m2/")
     }
